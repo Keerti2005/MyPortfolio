@@ -91,7 +91,19 @@
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-
+@media (max-width: 768px) {
+  .readme, .contactme {
+    width: 100px; /* Set a fixed width for mobile */
+    height: 30px;
+    
+    font-size: 15px; /* Optional: Increase font size slightly for readability */
+    letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  
+  }
+}
 
 .contactme {
   position: relative;
