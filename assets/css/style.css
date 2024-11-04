@@ -486,6 +486,7 @@ a.hoverline:hover {
   height: auto; 
   margin: 20px auto; 
   border-radius: 8px; 
+
   overflow: hidden; 
 }
 
